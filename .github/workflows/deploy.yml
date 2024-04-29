@@ -48,7 +48,7 @@ jobs:
       - name: zip distributions
         run: zip -r server.zip .
 
-      # AWS 인증 정보 설정
+      # AWS 인증 정보 설
       - name: AWS configure credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
